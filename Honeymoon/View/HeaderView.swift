@@ -50,7 +50,7 @@ struct HeaderView: View {
           }
           .accentColor(Color.primary)
           .sheet(isPresented: $showGuideView) {
-            //GuideView()
+            GuideView()
           }
         }
         .padding()
