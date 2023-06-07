@@ -27,7 +27,7 @@ struct HeaderView: View {
           }
           .accentColor(Color.primary)
           .sheet(isPresented: $showInfoView) {
-            //InfoView()
+            InfoView()
           }
           
           Spacer()
